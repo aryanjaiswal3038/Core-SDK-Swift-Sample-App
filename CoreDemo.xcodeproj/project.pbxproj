@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E03DCF0286EBB87005D167F /* PaymentOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DCEF286EBB87005D167F /* PaymentOptionVC.swift */; };
+		3E03DCF5286EBC59005D167F /* OptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DCF3286EBC59005D167F /* OptionCell.swift */; };
+		3E03DCF6286EBC59005D167F /* OptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E03DCF4286EBC59005D167F /* OptionCell.xib */; };
+		3E03DCF92872BBEC005D167F /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DCF82872BBEC005D167F /* PaymentVC.swift */; };
+		3E03DCFD2872E720005D167F /* TPKeyboardAvoidingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DCFC2872E720005D167F /* TPKeyboardAvoidingSwift.swift */; };
+		3E03DD032872E943005D167F /* NetBankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD022872E943005D167F /* NetBankingVC.swift */; };
+		3E03DD072872EA02005D167F /* NetBankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD052872EA02005D167F /* NetBankingCell.swift */; };
+		3E03DD082872EA02005D167F /* NetBankingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E03DD062872EA02005D167F /* NetBankingCell.xib */; };
+		3E03DD0B2872ED4E005D167F /* NetBankingHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E03DD0A2872ED4E005D167F /* NetBankingHeader.xib */; };
+		3E03DD0F2872EE01005D167F /* NetBankingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD0E2872EE01005D167F /* NetBankingHeader.swift */; };
+		3E03DD1328730B18005D167F /* UpiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD1228730B17005D167F /* UpiVC.swift */; };
+		3E03DD1628735160005D167F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD1528735160005D167F /* UIView+Extension.swift */; };
+		3E03DD1B2873E0F5005D167F /* EMICardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD1A2873E0F5005D167F /* EMICardVC.swift */; };
+		3E03DD1E2873E437005D167F /* EmiOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD1D2873E437005D167F /* EmiOptionVC.swift */; };
+		3E03DD222873E54F005D167F /* EmiOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD202873E54F005D167F /* EmiOptionCell.swift */; };
+		3E03DD232873E54F005D167F /* EmiOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E03DD212873E54F005D167F /* EmiOptionCell.xib */; };
+		3E03DD262873FE85005D167F /* CardListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD252873FE85005D167F /* CardListVC.swift */; };
+		3E03DD2A2873FFEB005D167F /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E03DD282873FFEB005D167F /* CardListCell.xib */; };
+		3E03DD2B2873FFEB005D167F /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E03DD292873FFEB005D167F /* CardListCell.swift */; };
+		3E0CD5F028746EF600BFF47F /* SelectedEmiOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CD5EF28746EF600BFF47F /* SelectedEmiOptionVC.swift */; };
+		3E0CD5F428747EE700BFF47F /* SelectedEmiOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0CD5F228747EE700BFF47F /* SelectedEmiOptionCell.swift */; };
+		3E0CD5F528747EE700BFF47F /* SelectedEmiOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0CD5F328747EE700BFF47F /* SelectedEmiOptionCell.xib */; };
+		3EED227828633CF900481CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED227728633CF900481CA9 /* AppDelegate.swift */; };
+		3EED227A28633CF900481CA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED227928633CF900481CA9 /* SceneDelegate.swift */; };
+		3EED227C28633CF900481CA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED227B28633CF900481CA9 /* ViewController.swift */; };
+		3EED227F28633CF900481CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED227D28633CF900481CA9 /* Main.storyboard */; };
+		3EED228128633CFB00481CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED228028633CFB00481CA9 /* Assets.xcassets */; };
+		3EED228428633CFB00481CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EED228228633CFB00481CA9 /* LaunchScreen.storyboard */; };
+		3EED228D286480E800481CA9 /* WebkitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED228C286480E800481CA9 /* WebkitVC.swift */; };
+		E77718C50ED51810BC7B85F7 /* Pods_CoreDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EA3D34E66F2D431EEE19EF /* Pods_CoreDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E03DCEF286EBB87005D167F /* PaymentOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionVC.swift; sourceTree = "<group>"; };
+		3E03DCF3286EBC59005D167F /* OptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCell.swift; sourceTree = "<group>"; };
+		3E03DCF4286EBC59005D167F /* OptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionCell.xib; sourceTree = "<group>"; };
+		3E03DCF82872BBEC005D167F /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		3E03DCFC2872E720005D167F /* TPKeyboardAvoidingSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPKeyboardAvoidingSwift.swift; sourceTree = "<group>"; };
+		3E03DD022872E943005D167F /* NetBankingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetBankingVC.swift; sourceTree = "<group>"; };
+		3E03DD052872EA02005D167F /* NetBankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetBankingCell.swift; sourceTree = "<group>"; };
+		3E03DD062872EA02005D167F /* NetBankingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBankingCell.xib; sourceTree = "<group>"; };
+		3E03DD0A2872ED4E005D167F /* NetBankingHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBankingHeader.xib; sourceTree = "<group>"; };
+		3E03DD0E2872EE01005D167F /* NetBankingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetBankingHeader.swift; sourceTree = "<group>"; };
+		3E03DD1228730B17005D167F /* UpiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpiVC.swift; sourceTree = "<group>"; };
+		3E03DD1528735160005D167F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3E03DD1A2873E0F5005D167F /* EMICardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMICardVC.swift; sourceTree = "<group>"; };
+		3E03DD1D2873E437005D167F /* EmiOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiOptionVC.swift; sourceTree = "<group>"; };
+		3E03DD202873E54F005D167F /* EmiOptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmiOptionCell.swift; sourceTree = "<group>"; };
+		3E03DD212873E54F005D167F /* EmiOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmiOptionCell.xib; sourceTree = "<group>"; };
+		3E03DD252873FE85005D167F /* CardListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListVC.swift; sourceTree = "<group>"; };
+		3E03DD282873FFEB005D167F /* CardListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		3E03DD292873FFEB005D167F /* CardListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
+		3E0CD5EF28746EF600BFF47F /* SelectedEmiOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedEmiOptionVC.swift; sourceTree = "<group>"; };
+		3E0CD5F228747EE700BFF47F /* SelectedEmiOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedEmiOptionCell.swift; sourceTree = "<group>"; };
+		3E0CD5F328747EE700BFF47F /* SelectedEmiOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedEmiOptionCell.xib; sourceTree = "<group>"; };
+		3EED227428633CF900481CA9 /* CoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EED227728633CF900481CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EED227928633CF900481CA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EED227B28633CF900481CA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EED227E28633CF900481CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EED228028633CFB00481CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EED228328633CFB00481CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EED228528633CFB00481CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EED228C286480E800481CA9 /* WebkitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebkitVC.swift; sourceTree = "<group>"; };
+		C10FA8190F47AB79CFA9921B /* Pods-CoreDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDemo.debug.xcconfig"; path = "Target Support Files/Pods-CoreDemo/Pods-CoreDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D5EA3D34E66F2D431EEE19EF /* Pods_CoreDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F315841378B5AA5431099A78 /* Pods-CoreDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreDemo.release.xcconfig"; path = "Target Support Files/Pods-CoreDemo/Pods-CoreDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EED227128633CF900481CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77718C50ED51810BC7B85F7 /* Pods_CoreDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6050E0176B3CF95F645C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EA3D34E66F2D431EEE19EF /* Pods_CoreDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E03DCEE286EBB5C005D167F /* PaymentOptionVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DCEF286EBB87005D167F /* PaymentOptionVC.swift */,
+			);
+			path = PaymentOptionVC;
+			sourceTree = "<group>";
+		};
+		3E03DCF1286EBC11005D167F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CD5EE28746ECA00BFF47F /* SelectedEmiOptionVc */,
+				3E03DD242873FE6D005D167F /* CardListVC */,
+				3E03DD1C2873E407005D167F /* EMIOptionVC */,
+				3E03DD1128730AE9005D167F /* UpiVC */,
+				3E03DD102873081A005D167F /* CashCardVC */,
+				3E03DD012872E91A005D167F /* NetBankingVC */,
+				3E03DCFE2872E76A005D167F /* EmiVC */,
+				3E03DCF72872BBCA005D167F /* PaymentVC */,
+				3E03DCEE286EBB5C005D167F /* PaymentOptionVC */,
+				3EED228B286480C200481CA9 /* WebKitVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3E03DCF2286EBC25005D167F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DCF3286EBC59005D167F /* OptionCell.swift */,
+				3E03DCF4286EBC59005D167F /* OptionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3E03DCF72872BBCA005D167F /* PaymentVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DCF82872BBEC005D167F /* PaymentVC.swift */,
+			);
+			path = PaymentVC;
+			sourceTree = "<group>";
+		};
+		3E03DCFA2872E6F2005D167F /* Utitlity */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD172873516A005D167F /* UIString */,
+				3E03DD1428735113005D167F /* UIView */,
+				3E03DCFB2872E6FA005D167F /* TpKeyboardavoiding */,
+			);
+			path = Utitlity;
+			sourceTree = "<group>";
+		};
+		3E03DCFB2872E6FA005D167F /* TpKeyboardavoiding */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DCFC2872E720005D167F /* TPKeyboardAvoidingSwift.swift */,
+			);
+			path = TpKeyboardavoiding;
+			sourceTree = "<group>";
+		};
+		3E03DCFE2872E76A005D167F /* EmiVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD1A2873E0F5005D167F /* EMICardVC.swift */,
+			);
+			path = EmiVC;
+			sourceTree = "<group>";
+		};
+		3E03DD012872E91A005D167F /* NetBankingVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD092872ED1C005D167F /* NetBankingHeader */,
+				3E03DD042872E9D9005D167F /* NetBankingCell */,
+				3E03DD022872E943005D167F /* NetBankingVC.swift */,
+			);
+			path = NetBankingVC;
+			sourceTree = "<group>";
+		};
+		3E03DD042872E9D9005D167F /* NetBankingCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD052872EA02005D167F /* NetBankingCell.swift */,
+				3E03DD062872EA02005D167F /* NetBankingCell.xib */,
+			);
+			path = NetBankingCell;
+			sourceTree = "<group>";
+		};
+		3E03DD092872ED1C005D167F /* NetBankingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD0A2872ED4E005D167F /* NetBankingHeader.xib */,
+				3E03DD0E2872EE01005D167F /* NetBankingHeader.swift */,
+			);
+			path = NetBankingHeader;
+			sourceTree = "<group>";
+		};
+		3E03DD102873081A005D167F /* CashCardVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CashCardVC;
+			sourceTree = "<group>";
+		};
+		3E03DD1128730AE9005D167F /* UpiVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD1228730B17005D167F /* UpiVC.swift */,
+			);
+			path = UpiVC;
+			sourceTree = "<group>";
+		};
+		3E03DD1428735113005D167F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD1528735160005D167F /* UIView+Extension.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3E03DD172873516A005D167F /* UIString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIString;
+			sourceTree = "<group>";
+		};
+		3E03DD1C2873E407005D167F /* EMIOptionVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD1F2873E502005D167F /* EmiOptionCell */,
+				3E03DD1D2873E437005D167F /* EmiOptionVC.swift */,
+			);
+			path = EMIOptionVC;
+			sourceTree = "<group>";
+		};
+		3E03DD1F2873E502005D167F /* EmiOptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD202873E54F005D167F /* EmiOptionCell.swift */,
+				3E03DD212873E54F005D167F /* EmiOptionCell.xib */,
+			);
+			path = EmiOptionCell;
+			sourceTree = "<group>";
+		};
+		3E03DD242873FE6D005D167F /* CardListVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD272873FFB5005D167F /* CardListCell */,
+				3E03DD252873FE85005D167F /* CardListVC.swift */,
+			);
+			path = CardListVC;
+			sourceTree = "<group>";
+		};
+		3E03DD272873FFB5005D167F /* CardListCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DD292873FFEB005D167F /* CardListCell.swift */,
+				3E03DD282873FFEB005D167F /* CardListCell.xib */,
+			);
+			path = CardListCell;
+			sourceTree = "<group>";
+		};
+		3E0CD5EE28746ECA00BFF47F /* SelectedEmiOptionVc */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CD5F128747EB800BFF47F /* SelectedEmiOptionCell */,
+				3E0CD5EF28746EF600BFF47F /* SelectedEmiOptionVC.swift */,
+			);
+			path = SelectedEmiOptionVc;
+			sourceTree = "<group>";
+		};
+		3E0CD5F128747EB800BFF47F /* SelectedEmiOptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E0CD5F228747EE700BFF47F /* SelectedEmiOptionCell.swift */,
+				3E0CD5F328747EE700BFF47F /* SelectedEmiOptionCell.xib */,
+			);
+			path = SelectedEmiOptionCell;
+			sourceTree = "<group>";
+		};
+		3EED226B28633CF900481CA9 = {
+			isa = PBXGroup;
+			children = (
+				3EED227628633CF900481CA9 /* CoreDemo */,
+				3EED227528633CF900481CA9 /* Products */,
+				EB777187C4D57E397DBF6B4A /* Pods */,
+				3A6050E0176B3CF95F645C1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EED227528633CF900481CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EED227428633CF900481CA9 /* CoreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EED227628633CF900481CA9 /* CoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E03DCFA2872E6F2005D167F /* Utitlity */,
+				3E03DCF2286EBC25005D167F /* Cells */,
+				3E03DCF1286EBC11005D167F /* Controllers */,
+				3EED227728633CF900481CA9 /* AppDelegate.swift */,
+				3EED227928633CF900481CA9 /* SceneDelegate.swift */,
+				3EED227B28633CF900481CA9 /* ViewController.swift */,
+				3EED227D28633CF900481CA9 /* Main.storyboard */,
+				3EED228028633CFB00481CA9 /* Assets.xcassets */,
+				3EED228228633CFB00481CA9 /* LaunchScreen.storyboard */,
+				3EED228528633CFB00481CA9 /* Info.plist */,
+			);
+			path = CoreDemo;
+			sourceTree = "<group>";
+		};
+		3EED228B286480C200481CA9 /* WebKitVC */ = {
+			isa = PBXGroup;
+			children = (
+				3EED228C286480E800481CA9 /* WebkitVC.swift */,
+			);
+			path = WebKitVC;
+			sourceTree = "<group>";
+		};
+		EB777187C4D57E397DBF6B4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10FA8190F47AB79CFA9921B /* Pods-CoreDemo.debug.xcconfig */,
+				F315841378B5AA5431099A78 /* Pods-CoreDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EED227328633CF900481CA9 /* CoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EED228828633CFB00481CA9 /* Build configuration list for PBXNativeTarget "CoreDemo" */;
+			buildPhases = (
+				A580CFC11E3C492DC30E2D3B /* [CP] Check Pods Manifest.lock */,
+				3EED227028633CF900481CA9 /* Sources */,
+				3EED227128633CF900481CA9 /* Frameworks */,
+				3EED227228633CF900481CA9 /* Resources */,
+				B61FA8058FE024DC67CAC762 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDemo;
+			productName = CoreDemo;
+			productReference = 3EED227428633CF900481CA9 /* CoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EED226C28633CF900481CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3EED227328633CF900481CA9 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EED226F28633CF900481CA9 /* Build configuration list for PBXProject "CoreDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EED226B28633CF900481CA9;
+			productRefGroup = 3EED227528633CF900481CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EED227328633CF900481CA9 /* CoreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EED227228633CF900481CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E03DCF6286EBC59005D167F /* OptionCell.xib in Resources */,
+				3E0CD5F528747EE700BFF47F /* SelectedEmiOptionCell.xib in Resources */,
+				3EED228428633CFB00481CA9 /* LaunchScreen.storyboard in Resources */,
+				3E03DD232873E54F005D167F /* EmiOptionCell.xib in Resources */,
+				3E03DD082872EA02005D167F /* NetBankingCell.xib in Resources */,
+				3E03DD0B2872ED4E005D167F /* NetBankingHeader.xib in Resources */,
+				3EED228128633CFB00481CA9 /* Assets.xcassets in Resources */,
+				3EED227F28633CF900481CA9 /* Main.storyboard in Resources */,
+				3E03DD2A2873FFEB005D167F /* CardListCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A580CFC11E3C492DC30E2D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B61FA8058FE024DC67CAC762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreDemo/Pods-CoreDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoreDemo/Pods-CoreDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoreDemo/Pods-CoreDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EED227028633CF900481CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E03DCF0286EBB87005D167F /* PaymentOptionVC.swift in Sources */,
+				3EED228D286480E800481CA9 /* WebkitVC.swift in Sources */,
+				3E03DD222873E54F005D167F /* EmiOptionCell.swift in Sources */,
+				3E03DD1E2873E437005D167F /* EmiOptionVC.swift in Sources */,
+				3E03DCF5286EBC59005D167F /* OptionCell.swift in Sources */,
+				3E03DCFD2872E720005D167F /* TPKeyboardAvoidingSwift.swift in Sources */,
+				3E03DD072872EA02005D167F /* NetBankingCell.swift in Sources */,
+				3EED227C28633CF900481CA9 /* ViewController.swift in Sources */,
+				3E03DD1328730B18005D167F /* UpiVC.swift in Sources */,
+				3E03DD032872E943005D167F /* NetBankingVC.swift in Sources */,
+				3E03DD262873FE85005D167F /* CardListVC.swift in Sources */,
+				3E03DD1628735160005D167F /* UIView+Extension.swift in Sources */,
+				3EED227828633CF900481CA9 /* AppDelegate.swift in Sources */,
+				3E03DD1B2873E0F5005D167F /* EMICardVC.swift in Sources */,
+				3E03DCF92872BBEC005D167F /* PaymentVC.swift in Sources */,
+				3E0CD5F428747EE700BFF47F /* SelectedEmiOptionCell.swift in Sources */,
+				3E03DD2B2873FFEB005D167F /* CardListCell.swift in Sources */,
+				3E0CD5F028746EF600BFF47F /* SelectedEmiOptionVC.swift in Sources */,
+				3EED227A28633CF900481CA9 /* SceneDelegate.swift in Sources */,
+				3E03DD0F2872EE01005D167F /* NetBankingHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EED227D28633CF900481CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EED227E28633CF900481CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EED228228633CFB00481CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EED228328633CFB00481CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EED228628633CFB00481CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EED228728633CFB00481CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EED228928633CFB00481CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10FA8190F47AB79CFA9921B /* Pods-CoreDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T2M5UN5C5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payu.OnePayUSwiftSampleApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EED228A28633CFB00481CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F315841378B5AA5431099A78 /* Pods-CoreDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T2M5UN5C5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoreDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.payu.OnePayUSwiftSampleApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EED226F28633CF900481CA9 /* Build configuration list for PBXProject "CoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EED228628633CFB00481CA9 /* Debug */,
+				3EED228728633CFB00481CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EED228828633CFB00481CA9 /* Build configuration list for PBXNativeTarget "CoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EED228928633CFB00481CA9 /* Debug */,
+				3EED228A28633CFB00481CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EED226C28633CF900481CA9 /* Project object */;
+}

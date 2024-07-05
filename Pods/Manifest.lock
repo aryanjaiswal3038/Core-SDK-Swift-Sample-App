@@ -1,0 +1,55 @@
+PODS:
+  - PayUIndia-Analytics (3.0.1):
+    - PayUIndia-NetworkReachability (~> 1.0)
+  - PayUIndia-CommonUI (1.2.1):
+    - PayUIndia-Analytics (~> 3.0)
+  - PayUIndia-CrashReporter (3.0.1)
+  - PayUIndia-Custom-Browser (10.2.2):
+    - PayUIndia-CommonUI (~> 1.2)
+  - PayUIndia-Logger (4.0.1)
+  - PayUIndia-Networking (4.1.1):
+    - PayUIndia-Logger (~> 4.0)
+  - PayUIndia-NetworkReachability (1.1.0)
+  - PayUIndia-PayUParams (5.4.1)
+  - PayUIndia-PG-SDK (10.4.2):
+    - PayUIndia-CrashReporter (~> 3.0)
+    - PayUIndia-NetworkReachability (~> 1.0)
+    - PayUIndia-PayUParams (~> 5.4)
+  - PayUIndia-UPICore (9.2.1):
+    - PayUIndia-CommonUI (~> 1.2)
+    - PayUIndia-Networking (~> 4.1)
+    - PayUIndia-PayUParams (~> 5.4)
+
+DEPENDENCIES:
+  - PayUIndia-Custom-Browser
+  - PayUIndia-PG-SDK
+  - PayUIndia-UPICore
+
+SPEC REPOS:
+  trunk:
+    - PayUIndia-Analytics
+    - PayUIndia-CommonUI
+    - PayUIndia-CrashReporter
+    - PayUIndia-Custom-Browser
+    - PayUIndia-Logger
+    - PayUIndia-Networking
+    - PayUIndia-NetworkReachability
+    - PayUIndia-PayUParams
+    - PayUIndia-PG-SDK
+    - PayUIndia-UPICore
+
+SPEC CHECKSUMS:
+  PayUIndia-Analytics: 048ce2fd5848e2d36a0b7f5a6de008444a62e1a4
+  PayUIndia-CommonUI: 4244713958bcbca392a3ae239c46bbc15c74dd39
+  PayUIndia-CrashReporter: 93d52812b1fe9228aedff58a7d0481a6d02f29d6
+  PayUIndia-Custom-Browser: b385e20ee9c967e26f99a15f44e7d5f93c26d63e
+  PayUIndia-Logger: b233805720a7c5f5dc20fcc006e53a6212c8466d
+  PayUIndia-Networking: 5e3887b15eff7d3bb45e534d1e5481b98a9cdd56
+  PayUIndia-NetworkReachability: e53e36092b879314b3da697bfe8de5761d18b733
+  PayUIndia-PayUParams: 10fbeaf089230ccdd2262506c2f1552fbb5b1439
+  PayUIndia-PG-SDK: ea08a8c8ab8d982cf2c48afedd40721d09005f07
+  PayUIndia-UPICore: 95fd01ea45eb00ec71b845f2d88e06f8d52cb898
+
+PODFILE CHECKSUM: ccb3ab077984c025e3c26607b18c7a6479ddfb2f
+
+COCOAPODS: 1.15.2
